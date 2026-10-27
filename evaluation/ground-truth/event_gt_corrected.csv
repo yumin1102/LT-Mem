@@ -1,0 +1,201 @@
+env,session,object,event
+Lab-S,s1,blue tote bag,APPEAR
+Lab-S,s2,blue tote bag,NONE
+Lab-S,s3,blue tote bag,MOVE
+Lab-S,s4,blue tote bag,DISAPPEAR
+Lab-S,s5,blue tote bag,REAPPEAR
+Lab-S,s6,blue tote bag,MOVE
+Lab-S,s7,blue tote bag,MOVE
+Lab-S,s8,blue tote bag,MOVE
+Lab-S,s9,blue tote bag,NONE
+Lab-S,s10,blue tote bag,MOVE
+Lab-S,s1,coffee machine,APPEAR
+Lab-S,s2,coffee machine,NONE
+Lab-S,s3,coffee machine,NONE
+Lab-S,s4,coffee machine,NONE
+Lab-S,s5,coffee machine,NONE
+Lab-S,s6,coffee machine,MOVE
+Lab-S,s7,coffee machine,NONE
+Lab-S,s8,coffee machine,NONE
+Lab-S,s9,coffee machine,NONE
+Lab-S,s10,coffee machine,NONE
+Lab-S,s1,fire extinguisher,APPEAR
+Lab-S,s2,fire extinguisher,NONE
+Lab-S,s3,fire extinguisher,NONE
+Lab-S,s4,fire extinguisher,NONE
+Lab-S,s5,fire extinguisher,NONE
+Lab-S,s6,fire extinguisher,NONE
+Lab-S,s7,fire extinguisher,NONE
+Lab-S,s8,fire extinguisher,NONE
+Lab-S,s9,fire extinguisher,NONE
+Lab-S,s10,fire extinguisher,NONE
+Lab-S,s1,flower,APPEAR
+Lab-S,s2,flower,NONE
+Lab-S,s3,flower,NONE
+Lab-S,s4,flower,NONE
+Lab-S,s5,flower,NONE
+Lab-S,s6,flower,NONE
+Lab-S,s7,flower,MOVE
+Lab-S,s8,flower,NONE
+Lab-S,s9,flower,NONE
+Lab-S,s10,flower,NONE
+Lab-S,s1,fridge,APPEAR
+Lab-S,s2,fridge,NONE
+Lab-S,s3,fridge,NONE
+Lab-S,s4,fridge,NONE
+Lab-S,s5,fridge,NONE
+Lab-S,s6,fridge,NONE
+Lab-S,s7,fridge,NONE
+Lab-S,s8,fridge,NONE
+Lab-S,s9,fridge,NONE
+Lab-S,s10,fridge,NONE
+Lab-S,s1,robot dog,APPEAR
+Lab-S,s2,robot dog,NONE
+Lab-S,s3,robot dog,NONE
+Lab-S,s4,robot dog,NONE
+Lab-S,s5,robot dog,NONE
+Lab-S,s6,robot dog,MOVE
+Lab-S,s7,robot dog,NONE
+Lab-S,s8,robot dog,NONE
+Lab-S,s9,robot dog,MOVE
+Lab-S,s10,robot dog,NONE
+Lab-S,s1,trash bin,APPEAR
+Lab-S,s2,trash bin,NONE
+Lab-S,s3,trash bin,NONE
+Lab-S,s4,trash bin,NONE
+Lab-S,s5,trash bin,MOVE
+Lab-S,s6,trash bin,NONE
+Lab-S,s7,trash bin,NONE
+Lab-S,s8,trash bin,MOVE
+Lab-S,s9,trash bin,NONE
+Lab-S,s10,trash bin,NONE
+Lab-S,s1,stick vacuum cleaner,APPEAR
+Lab-S,s2,stick vacuum cleaner,NONE
+Lab-S,s3,stick vacuum cleaner,NONE
+Lab-S,s4,stick vacuum cleaner,NONE
+Lab-S,s5,stick vacuum cleaner,MOVE
+Lab-S,s6,stick vacuum cleaner,MOVE
+Lab-S,s7,stick vacuum cleaner,NONE
+Lab-S,s8,stick vacuum cleaner,NONE
+Lab-S,s9,stick vacuum cleaner,MOVE
+Lab-S,s10,stick vacuum cleaner,MOVE
+Lab-S,s1,white chair near trash bin,APPEAR
+Lab-S,s2,white chair near trash bin,NONE
+Lab-S,s3,white chair near trash bin,NONE
+Lab-S,s4,white chair near trash bin,NONE
+Lab-S,s5,white chair near trash bin,MOVE
+Lab-S,s6,white chair near trash bin,MOVE
+Lab-S,s7,white chair near trash bin,NONE
+Lab-S,s8,white chair near trash bin,NONE
+Lab-S,s9,white chair near trash bin,NONE
+Lab-S,s10,white chair near trash bin,NONE
+Lab-S,s1,white desk,APPEAR
+Lab-S,s2,white desk,NONE
+Lab-S,s3,white desk,NONE
+Lab-S,s4,white desk,NONE
+Lab-S,s5,white desk,NONE
+Lab-S,s6,white desk,NONE
+Lab-S,s7,white desk,NONE
+Lab-S,s8,white desk,NONE
+Lab-S,s9,white desk,NONE
+Lab-S,s10,white desk,NONE
+Lab-L,s1,brown basket,APPEAR
+Lab-L,s2,brown basket,NONE
+Lab-L,s3,brown basket,MOVE
+Lab-L,s4,brown basket,NONE
+Lab-L,s5,brown basket,NONE
+Lab-L,s6,brown basket,MOVE
+Lab-L,s7,brown basket,MOVE
+Lab-L,s8,brown basket,MOVE
+Lab-L,s9,brown basket,NONE
+Lab-L,s10,brown basket,MOVE
+Lab-L,s1,green chair,APPEAR
+Lab-L,s2,green chair,NONE
+Lab-L,s3,green chair,NONE
+Lab-L,s4,green chair,NONE
+Lab-L,s5,green chair,MOVE
+Lab-L,s6,green chair,NONE
+Lab-L,s7,green chair,NONE
+Lab-L,s8,green chair,DISAPPEAR
+Lab-L,s9,green chair,REAPPEAR
+Lab-L,s10,green chair,NONE
+Lab-L,s1,plant with white pot,APPEAR
+Lab-L,s2,plant with white pot,NONE
+Lab-L,s3,plant with white pot,NONE
+Lab-L,s4,plant with white pot,NONE
+Lab-L,s5,plant with white pot,NONE
+Lab-L,s6,plant with white pot,NONE
+Lab-L,s7,plant with white pot,MOVE
+Lab-L,s8,plant with white pot,NONE
+Lab-L,s9,plant with white pot,NONE
+Lab-L,s10,plant with white pot,NONE
+Lab-L,s1,printer,APPEAR
+Lab-L,s2,printer,NONE
+Lab-L,s3,printer,NONE
+Lab-L,s4,printer,NONE
+Lab-L,s5,printer,NONE
+Lab-L,s6,printer,NONE
+Lab-L,s7,printer,NONE
+Lab-L,s8,printer,NONE
+Lab-L,s9,printer,NONE
+Lab-L,s10,printer,NONE
+Lab-L,s1,robot dog,APPEAR
+Lab-L,s2,robot dog,NONE
+Lab-L,s3,robot dog,NONE
+Lab-L,s4,robot dog,NONE
+Lab-L,s5,robot dog,NONE
+Lab-L,s6,robot dog,MOVE
+Lab-L,s7,robot dog,NONE
+Lab-L,s8,robot dog,MOVE
+Lab-L,s9,robot dog,MOVE
+Lab-L,s10,robot dog,NONE
+Lab-L,s1,scissor,NONE
+Lab-L,s2,scissor,NONE
+Lab-L,s3,scissor,APPEAR
+Lab-L,s4,scissor,NONE
+Lab-L,s5,scissor,NONE
+Lab-L,s6,scissor,MOVE
+Lab-L,s7,scissor,MOVE
+Lab-L,s8,scissor,NONE
+Lab-L,s9,scissor,NONE
+Lab-L,s10,scissor,MOVE
+Lab-L,s1,silver headphone,APPEAR
+Lab-L,s2,silver headphone,NONE
+Lab-L,s3,silver headphone,NONE
+Lab-L,s4,silver headphone,NONE
+Lab-L,s5,silver headphone,MOVE
+Lab-L,s6,silver headphone,MOVE
+Lab-L,s7,silver headphone,MOVE
+Lab-L,s8,silver headphone,MOVE
+Lab-L,s9,silver headphone,NONE
+Lab-L,s10,silver headphone,NONE
+Lab-L,s1,sofa,APPEAR
+Lab-L,s2,sofa,NONE
+Lab-L,s3,sofa,NONE
+Lab-L,s4,sofa,NONE
+Lab-L,s5,sofa,NONE
+Lab-L,s6,sofa,NONE
+Lab-L,s7,sofa,NONE
+Lab-L,s8,sofa,NONE
+Lab-L,s9,sofa,NONE
+Lab-L,s10,sofa,NONE
+Lab-L,s1,vacuum,APPEAR
+Lab-L,s2,vacuum,NONE
+Lab-L,s3,vacuum,NONE
+Lab-L,s4,vacuum,MOVE
+Lab-L,s5,vacuum,NONE
+Lab-L,s6,vacuum,NONE
+Lab-L,s7,vacuum,MOVE
+Lab-L,s8,vacuum,NONE
+Lab-L,s9,vacuum,NONE
+Lab-L,s10,vacuum,NONE
+Lab-L,s1,white board,APPEAR
+Lab-L,s2,white board,NONE
+Lab-L,s3,white board,NONE
+Lab-L,s4,white board,NONE
+Lab-L,s5,white board,NONE
+Lab-L,s6,white board,NONE
+Lab-L,s7,white board,NONE
+Lab-L,s8,white board,NONE
+Lab-L,s9,white board,MOVE
+Lab-L,s10,white board,NONE

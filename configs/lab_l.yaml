@@ -1,0 +1,38 @@
+data_root: ../data/Lab-L_Output
+env: Lab-L
+alignment_gate_enabled: false
+structural_anchors: [entrance door]
+
+sessions:
+  - [robot_1, Session1]
+  - [robot_2, Session2]
+  - [robot_3, Session3]
+  - [robot_4, Session4]
+  - [robot_5, Session5]
+  - [robot_6, Session6]
+  - [robot_7, Session7]
+  - [robot_8, Session8]
+  - [robot_9, Session9]
+  - [robot_10, Session10]
+
+objects:
+  - name: robot dog
+    object_classes: [robot dog]
+  - name: green chair
+    object_classes: [green chair]
+  - name: brown basket
+    object_classes: [brown basket]
+  - name: scissor
+    object_classes: [scissor]
+  - name: white board
+    object_classes: [whiteboard]
+  - name: plant with white pot
+    object_classes: [plant with white pot]
+  - name: vacuum
+    object_classes: [vacuum]
+  - name: silver headphone
+    object_classes: [silver headphone]
+  - name: sofa
+    object_classes: [sofa]
+  - name: printer
+    object_classes: [printer]

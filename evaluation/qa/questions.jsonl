@@ -1,0 +1,80 @@
+{"qid": "lab_s_01", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, what event was recorded for the blue tote bag in Session 4?", "answer": "DISAPPEAR"}
+{"qid": "lab_s_02", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, what event was recorded for the blue tote bag in Session 5?", "answer": "REAPPEAR"}
+{"qid": "lab_s_03", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, what event was recorded for the coffee machine in Session 6?", "answer": "MOVE"}
+{"qid": "lab_s_04", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, what event was recorded for the fire extinguisher in Session 1?", "answer": "APPEAR"}
+{"qid": "lab_s_05", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, what event was recorded for the flower in Session 7?", "answer": "MOVE"}
+{"qid": "lab_s_06", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, what event was recorded for the robot dog in Session 9?", "answer": "MOVE"}
+{"qid": "lab_s_07", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, what event was recorded for the stick vacuum cleaner in Session 5?", "answer": "MOVE"}
+{"qid": "lab_s_08", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, what event was recorded for the stick vacuum cleaner in Session 9?", "answer": "MOVE"}
+{"qid": "lab_s_09", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, what event was recorded for the trash bin in Session 8?", "answer": "MOVE"}
+{"qid": "lab_s_10", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, what event was recorded for the white chair near trash bin in Session 6?", "answer": "MOVE"}
+{"qid": "lab_s_11", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, when was the first MOVE event recorded for the blue tote bag from Session 1 through Session 10, inclusive?", "answer": "Session3"}
+{"qid": "lab_s_12", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, when was the first MOVE event recorded for the coffee machine from Session 1 through Session 10, inclusive?", "answer": "Session6"}
+{"qid": "lab_s_13", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, when was the first MOVE event recorded for the flower from Session 1 through Session 10, inclusive?", "answer": "Session7"}
+{"qid": "lab_s_14", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, when was the first MOVE event recorded for the robot dog from Session 1 through Session 10, inclusive?", "answer": "Session6"}
+{"qid": "lab_s_15", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, when was the first MOVE event recorded for the stick vacuum cleaner from Session 1 through Session 10, inclusive?", "answer": "Session5"}
+{"qid": "lab_s_16", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, when was the first MOVE event recorded for the trash bin from Session 1 through Session 10, inclusive?", "answer": "Session5"}
+{"qid": "lab_s_17", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, when was the first MOVE event recorded for the white chair near trash bin from Session 1 through Session 10, inclusive?", "answer": "Session5"}
+{"qid": "lab_s_18", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, when was the last MOVE event recorded for the blue tote bag from Session 1 through Session 10, inclusive?", "answer": "Session10"}
+{"qid": "lab_s_19", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, when was the last MOVE event recorded for the stick vacuum cleaner from Session 4 through Session 8, inclusive?", "answer": "Session6"}
+{"qid": "lab_s_20", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, when was the first MOVE event recorded for the trash bin from Session 6 through Session 10, inclusive?", "answer": "Session8"}
+{"qid": "lab_s_21", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, when was the last MOVE event recorded for the white chair near trash bin from Session 4 through Session 8, inclusive?", "answer": "Session6"}
+{"qid": "lab_s_22", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, when was the last MOVE event recorded for the robot dog from Session 6 through Session 10, inclusive?", "answer": "Session9"}
+{"qid": "lab_s_23", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, after the blue tote bag disappeared in Session 4, in which session was its first REAPPEAR recorded through Session 10, inclusive?", "answer": "Session5"}
+{"qid": "lab_s_24", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, when was the first DISAPPEAR event recorded for the blue tote bag from Session 1 through Session 10, inclusive?", "answer": "Session4"}
+{"qid": "lab_s_25", "env": "Lab-S", "type": "QA-Event", "question": "In Lab-S, when was the last MOVE event recorded for the stick vacuum cleaner from Session 1 through Session 10, inclusive?", "answer": "Session10"}
+{"qid": "lab_s_26", "env": "Lab-S", "type": "QA-Freq", "question": "In Lab-S, how many MOVE events were recorded for the robot dog from Session 1 through Session 10, inclusive?", "answer": "2"}
+{"qid": "lab_s_27", "env": "Lab-S", "type": "QA-Freq", "question": "In Lab-S, how many MOVE events were recorded for the stick vacuum cleaner from Session 1 through Session 10, inclusive?", "answer": "4"}
+{"qid": "lab_s_28", "env": "Lab-S", "type": "QA-Freq", "question": "In Lab-S, how many MOVE events were recorded for the blue tote bag from Session 1 through Session 10, inclusive?", "answer": "5"}
+{"qid": "lab_s_29", "env": "Lab-S", "type": "QA-Freq", "question": "In Lab-S, how many MOVE events were recorded for the coffee machine from Session 1 through Session 10, inclusive?", "answer": "1"}
+{"qid": "lab_s_30", "env": "Lab-S", "type": "QA-Freq", "question": "In Lab-S, how many MOVE events were recorded for the white chair near trash bin from Session 1 through Session 10, inclusive?", "answer": "2"}
+{"qid": "lab_s_31", "env": "Lab-S", "type": "QA-Freq", "question": "In Lab-S, how many MOVE events were recorded for the robot dog from Session 4 through Session 8, inclusive?", "answer": "1"}
+{"qid": "lab_s_32", "env": "Lab-S", "type": "QA-Freq", "question": "In Lab-S, how many MOVE events were recorded for the stick vacuum cleaner from Session 5 through Session 6, inclusive?", "answer": "2"}
+{"qid": "lab_s_33", "env": "Lab-S", "type": "QA-Freq", "question": "In Lab-S, how many MOVE events were recorded for the blue tote bag from Session 3 through Session 6, inclusive?", "answer": "2"}
+{"qid": "lab_s_34", "env": "Lab-S", "type": "QA-Freq", "question": "In Lab-S, how many MOVE events were recorded for the trash bin from Session 4 through Session 7, inclusive?", "answer": "1"}
+{"qid": "lab_s_35", "env": "Lab-S", "type": "QA-Freq", "question": "In Lab-S, how many DISAPPEAR events were recorded for the blue tote bag from Session 2 through Session 7, inclusive?", "answer": "1"}
+{"qid": "lab_s_36", "env": "Lab-S", "type": "QA-Freq", "question": "In Lab-S, which had more recorded MOVE events from Session 1 through Session 10, inclusive: the blue tote bag or the robot dog?", "answer": "blue tote bag"}
+{"qid": "lab_s_37", "env": "Lab-S", "type": "QA-Freq", "question": "In Lab-S, which object had the most recorded MOVE events among the ten tracked objects from Session 1 through Session 10, inclusive?", "answer": "blue tote bag"}
+{"qid": "lab_s_38", "env": "Lab-S", "type": "QA-Freq", "question": "In Lab-S, how many MOVE events were recorded for the stick vacuum cleaner from Session 6 through Session 10, inclusive?", "answer": "3"}
+{"qid": "lab_s_39", "env": "Lab-S", "type": "QA-Freq", "question": "In Lab-S, how many of the ten tracked objects had at least one recorded MOVE event from Session 1 through Session 10, inclusive?", "answer": "7"}
+{"qid": "lab_s_40", "env": "Lab-S", "type": "QA-Freq", "question": "In Lab-S, which had more recorded MOVE events from Session 1 through Session 10, inclusive: the flower or the blue tote bag?", "answer": "blue tote bag"}
+{"qid": "lab_l_01", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, what event was recorded for the brown basket in Session 7?", "answer": "MOVE"}
+{"qid": "lab_l_02", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, what event was recorded for the green chair in Session 8?", "answer": "DISAPPEAR"}
+{"qid": "lab_l_03", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, what event was recorded for the green chair in Session 9?", "answer": "REAPPEAR"}
+{"qid": "lab_l_04", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, what event was recorded for the plant with white pot in Session 7?", "answer": "MOVE"}
+{"qid": "lab_l_05", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, what event was recorded for the printer in Session 1?", "answer": "APPEAR"}
+{"qid": "lab_l_06", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, what event was recorded for the robot dog in Session 8?", "answer": "MOVE"}
+{"qid": "lab_l_07", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, what event was recorded for the scissor in Session 7?", "answer": "MOVE"}
+{"qid": "lab_l_08", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, what event was recorded for the silver headphone in Session 7?", "answer": "MOVE"}
+{"qid": "lab_l_09", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, what event was recorded for the vacuum in Session 7?", "answer": "MOVE"}
+{"qid": "lab_l_10", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, what event was recorded for the white board in Session 9?", "answer": "MOVE"}
+{"qid": "lab_l_11", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, when was the first MOVE event recorded for the brown basket from Session 1 through Session 10, inclusive?", "answer": "Session3"}
+{"qid": "lab_l_12", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, when was the first MOVE event recorded for the green chair from Session 1 through Session 10, inclusive?", "answer": "Session5"}
+{"qid": "lab_l_13", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, when was the first MOVE event recorded for the plant with white pot from Session 1 through Session 10, inclusive?", "answer": "Session7"}
+{"qid": "lab_l_14", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, when was the first MOVE event recorded for the robot dog from Session 1 through Session 10, inclusive?", "answer": "Session6"}
+{"qid": "lab_l_15", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, when was the first MOVE event recorded for the scissor from Session 1 through Session 10, inclusive?", "answer": "Session6"}
+{"qid": "lab_l_16", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, when was the first MOVE event recorded for the silver headphone from Session 1 through Session 10, inclusive?", "answer": "Session5"}
+{"qid": "lab_l_17", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, when was the first MOVE event recorded for the vacuum from Session 1 through Session 10, inclusive?", "answer": "Session4"}
+{"qid": "lab_l_18", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, when was the first MOVE event recorded for the white board from Session 1 through Session 10, inclusive?", "answer": "Session9"}
+{"qid": "lab_l_19", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, when was the first MOVE event recorded for the brown basket from Session 4 through Session 8, inclusive?", "answer": "Session6"}
+{"qid": "lab_l_20", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, when was the first MOVE event recorded for the silver headphone from Session 6 through Session 10, inclusive?", "answer": "Session6"}
+{"qid": "lab_l_21", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, when was the last MOVE event recorded for the robot dog from Session 4 through Session 8, inclusive?", "answer": "Session8"}
+{"qid": "lab_l_22", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, when was the first MOVE event recorded for the vacuum from Session 6 through Session 10, inclusive?", "answer": "Session7"}
+{"qid": "lab_l_23", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, after the green chair disappeared in Session 8, in which session was its first REAPPEAR recorded through Session 10, inclusive?", "answer": "Session9"}
+{"qid": "lab_l_24", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, when was the last MOVE event recorded for the brown basket from Session 1 through Session 10, inclusive?", "answer": "Session10"}
+{"qid": "lab_l_25", "env": "Lab-L", "type": "QA-Event", "question": "In Lab-L, when was the first DISAPPEAR event recorded for the green chair from Session 1 through Session 10, inclusive?", "answer": "Session8"}
+{"qid": "lab_l_26", "env": "Lab-L", "type": "QA-Freq", "question": "In Lab-L, how many MOVE events were recorded for the brown basket from Session 1 through Session 10, inclusive?", "answer": "5"}
+{"qid": "lab_l_27", "env": "Lab-L", "type": "QA-Freq", "question": "In Lab-L, how many MOVE events were recorded for the green chair from Session 1 through Session 10, inclusive?", "answer": "1"}
+{"qid": "lab_l_28", "env": "Lab-L", "type": "QA-Freq", "question": "In Lab-L, how many MOVE events were recorded for the scissor from Session 1 through Session 10, inclusive?", "answer": "3"}
+{"qid": "lab_l_29", "env": "Lab-L", "type": "QA-Freq", "question": "In Lab-L, how many MOVE events were recorded for the white board from Session 1 through Session 10, inclusive?", "answer": "1"}
+{"qid": "lab_l_30", "env": "Lab-L", "type": "QA-Freq", "question": "In Lab-L, how many MOVE events were recorded for the silver headphone from Session 1 through Session 10, inclusive?", "answer": "4"}
+{"qid": "lab_l_31", "env": "Lab-L", "type": "QA-Freq", "question": "In Lab-L, how many MOVE events were recorded for the brown basket from Session 4 through Session 8, inclusive?", "answer": "3"}
+{"qid": "lab_l_32", "env": "Lab-L", "type": "QA-Freq", "question": "In Lab-L, how many REAPPEAR events were recorded for the green chair from Session 6 through Session 10, inclusive?", "answer": "1"}
+{"qid": "lab_l_33", "env": "Lab-L", "type": "QA-Freq", "question": "In Lab-L, how many MOVE events were recorded for the scissor from Session 4 through Session 8, inclusive?", "answer": "2"}
+{"qid": "lab_l_34", "env": "Lab-L", "type": "QA-Freq", "question": "In Lab-L, how many MOVE events were recorded for the silver headphone from Session 6 through Session 9, inclusive?", "answer": "3"}
+{"qid": "lab_l_35", "env": "Lab-L", "type": "QA-Freq", "question": "In Lab-L, how many MOVE events were recorded for the white board from Session 2 through Session 10, inclusive?", "answer": "1"}
+{"qid": "lab_l_36", "env": "Lab-L", "type": "QA-Freq", "question": "In Lab-L, which had more recorded MOVE events from Session 1 through Session 10, inclusive: the silver headphone or the robot dog?", "answer": "silver headphone"}
+{"qid": "lab_l_37", "env": "Lab-L", "type": "QA-Freq", "question": "In Lab-L, which object had the most recorded MOVE events among the ten tracked objects from Session 1 through Session 10, inclusive?", "answer": "brown basket"}
+{"qid": "lab_l_38", "env": "Lab-L", "type": "QA-Freq", "question": "In Lab-L, how many MOVE events were recorded for the vacuum from Session 6 through Session 10, inclusive?", "answer": "1"}
+{"qid": "lab_l_39", "env": "Lab-L", "type": "QA-Freq", "question": "In Lab-L, how many of the ten tracked objects had at least one recorded MOVE event from Session 1 through Session 10, inclusive?", "answer": "8"}
+{"qid": "lab_l_40", "env": "Lab-L", "type": "QA-Freq", "question": "In Lab-L, which had more recorded MOVE events from Session 1 through Session 10, inclusive: the white board or the scissor?", "answer": "scissor"}

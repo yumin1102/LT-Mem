@@ -1,0 +1,38 @@
+data_root: ../data/Lab-S_aligned
+env: Lab-S
+alignment_gate_enabled: false
+structural_anchors: [entrance door]
+
+sessions:
+  - [robot_1, Session1]
+  - [robot_2, Session2]
+  - [robot_3, Session3]
+  - [robot_4, Session4]
+  - [robot_5, Session5]
+  - [robot_6, Session6]
+  - [robot_7, Session7]
+  - [robot_8, Session8]
+  - [robot_9, Session9]
+  - [robot_10, Session10]
+
+objects:
+  - name: robot dog
+    object_classes: [robot dog]
+  - name: stick vacuum cleaner
+    object_classes: [stick vacuum cleaner]
+  - name: blue tote bag
+    object_classes: [blue totebag]
+  - name: white chair near trash bin
+    object_classes: [white chair near trashbin]
+  - name: flower
+    object_classes: [flower]
+  - name: coffee machine
+    object_classes: [coffee machine]
+  - name: trash bin
+    object_classes: [trashbin]
+  - name: fridge
+    object_classes: [fridge]
+  - name: white desk
+    object_classes: [white desk]
+  - name: fire extinguisher
+    object_classes: [fire extinguisher]

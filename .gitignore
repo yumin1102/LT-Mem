@@ -1,0 +1,43 @@
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+*.log
+*.tmp
+*.orig
+
+# Data, models and run outputs
+/data/
+/models/
+/results/
+/output/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.pkl
+
+# Credentials and local environment settings
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+*service-account*.json
+*credential*.json
+*secret*.json
+*key*.json
+
+# Local development and browser demo
+/tests/
+/web/
+/requirements/dev.txt

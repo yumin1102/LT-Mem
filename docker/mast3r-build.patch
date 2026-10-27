@@ -1,0 +1,123 @@
+--- a/mast3r_slam/backend/src/gn_kernels.cu
++++ b/mast3r_slam/backend/src/gn_kernels.cu
+@@ -799,7 +799,7 @@
+ 
+     // Termination criteria
+     // Need to specify this second argument otherwise ambiguous function call...
+-    delta_norm = torch::linalg::linalg_norm(dx, std::optional<c10::Scalar>(), {}, false, {});
++    delta_norm = torch::linalg_norm(dx, std::optional<c10::Scalar>(), {}, false, {});
+     if (delta_norm.item<float>() < delta_thresh) {
+       break;
+     }
+@@ -1216,7 +1216,7 @@
+ 
+     // Termination criteria
+     // Need to specify this second argument otherwise ambiguous function call...
+-    delta_norm = torch::linalg::linalg_norm(dx, std::optional<c10::Scalar>(), {}, false, {});
++    delta_norm = torch::linalg_norm(dx, std::optional<c10::Scalar>(), {}, false, {});
+     if (delta_norm.item<float>() < delta_thresh) {
+       break;
+     }
+@@ -1626,7 +1626,7 @@
+ 
+     // Termination criteria
+     // Need to specify this second argument otherwise ambiguous function call...
+-    delta_norm = torch::linalg::linalg_norm(dx, std::optional<c10::Scalar>(), {}, false, {});
++    delta_norm = torch::linalg_norm(dx, std::optional<c10::Scalar>(), {}, false, {});
+     if (delta_norm.item<float>() < delta_thresh) {
+       break;
+     }
+--- a/mast3r_slam/backend/src/matching_kernels.cu
++++ b/mast3r_slam/backend/src/matching_kernels.cu
+@@ -100,7 +100,7 @@
+   torch::Tensor p1_new = torch::zeros(
+     {batch_size, n, 2}, opts);
+ 
+-  AT_DISPATCH_FLOATING_TYPES_AND_HALF(D11.type(), "refine_matches_kernel", ([&] {
++  AT_DISPATCH_FLOATING_TYPES_AND_HALF(D11.scalar_type(), "refine_matches_kernel", ([&] {
+     refine_matches_kernel<scalar_t><<<blocks, threads>>>(
+       D11.packed_accessor32<scalar_t,4,torch::RestrictPtrTraits>(),
+       D21.packed_accessor32<scalar_t,3,torch::RestrictPtrTraits>(),
+--- a/thirdparty/mast3r/dust3r/croco/models/curope/kernels.cu
++++ b/thirdparty/mast3r/dust3r/croco/models/curope/kernels.cu
+@@ -98,7 +98,7 @@
+     const int N_BLOCKS = B * N; // each block takes care of H*D values
+     const int SHARED_MEM = sizeof(float) * (D + D/4);
+ 
+-    AT_DISPATCH_FLOATING_TYPES_AND_HALF(tokens.type(), "rope_2d_cuda", ([&] {
++    AT_DISPATCH_FLOATING_TYPES_AND_HALF(tokens.scalar_type(), "rope_2d_cuda", ([&] {
+         rope_2d_cuda_kernel<scalar_t> <<<N_BLOCKS, THREADS_PER_BLOCK, SHARED_MEM>>> (
+             //tokens.data_ptr<scalar_t>(), 
+             tokens.packed_accessor32<scalar_t,4,torch::RestrictPtrTraits>(),
+--- a/thirdparty/mast3r/dust3r/dust3r/model.py
++++ b/thirdparty/mast3r/dust3r/dust3r/model.py
+@@ -27,7 +27,7 @@
+ def load_model(model_path, device, verbose=True):
+     if verbose:
+         print('... loading model from', model_path)
+-    ckpt = torch.load(model_path, map_location='cpu')
++    ckpt = torch.load(model_path, map_location='cpu', weights_only=False)
+     args = ckpt['args'].model.replace("ManyAR_PatchEmbed", "PatchEmbedDust3R")
+     if 'landscape_only' not in args:
+         args = args[:-1] + ', landscape_only=False)'
+--- a/thirdparty/mast3r/mast3r/model.py
++++ b/thirdparty/mast3r/mast3r/model.py
+@@ -21,7 +21,7 @@
+ def load_model(model_path, device, verbose=True):
+     if verbose:
+         print('... loading model from', model_path)
+-    ckpt = torch.load(model_path, map_location='cpu')
++    ckpt = torch.load(model_path, map_location='cpu', weights_only=False)
+     args = ckpt['args'].model.replace("ManyAR_PatchEmbed", "PatchEmbedDust3R")
+     if 'landscape_only' not in args:
+         args = args[:-1] + ', landscape_only=False)'
+--- a/thirdparty/mast3r/mast3r/retrieval/processor.py
++++ b/thirdparty/mast3r/mast3r/retrieval/processor.py
+@@ -67,7 +67,7 @@
+         # load the model
+         assert os.path.isfile(modelname), modelname
+         print(f'Loading retrieval model from {modelname}')
+-        ckpt = torch.load(modelname, 'cpu')  # TODO from pretrained to download it automatically
++        ckpt = torch.load(modelname, 'cpu', weights_only=False)  # TODO from pretrained to download it automatically
+         ckpt_args = ckpt['args']
+         if backbone is None:
+             backbone = AsymmetricMASt3R.from_pretrained(ckpt_args.pretrained)
+--- a/setup.py
++++ b/setup.py
+@@ -6,7 +6,7 @@
+ import os
+ 
+ ROOT = os.path.dirname(os.path.abspath(__file__))
+-has_cuda = torch.cuda.is_available()
++has_cuda = bool(os.environ.get("CUDA_HOME"))
+ 
+ include_dirs = [
+     os.path.join(ROOT, "mast3r_slam/backend/include"),
+@@ -26,15 +26,7 @@
+ 
+     sources.append("mast3r_slam/backend/src/gn_kernels.cu")
+     sources.append("mast3r_slam/backend/src/matching_kernels.cu")
+-    extra_compile_args["nvcc"] = [
+-        "-O3",
+-        "-gencode=arch=compute_60,code=sm_60",
+-        "-gencode=arch=compute_61,code=sm_61",
+-        "-gencode=arch=compute_70,code=sm_70",
+-        "-gencode=arch=compute_75,code=sm_75",
+-        "-gencode=arch=compute_80,code=sm_80",
+-        "-gencode=arch=compute_86,code=sm_86",
+-    ]
++    extra_compile_args["nvcc"] = ["-O3"]
+     ext_modules = [
+         CUDAExtension(
+             "mast3r_slam_backends",
+--- a/thirdparty/mast3r/dust3r/croco/models/curope/setup.py
++++ b/thirdparty/mast3r/dust3r/croco/models/curope/setup.py
+@@ -6,7 +6,7 @@
+ from torch.utils.cpp_extension import BuildExtension, CUDAExtension
+ 
+ # compile for all possible CUDA architectures
+-all_cuda_archs = cuda.get_gencode_flags().replace('compute=','arch=').split()
++all_cuda_archs = []  # torch uses TORCH_CUDA_ARCH_LIST, including during GPU-less builds
+ # alternatively, you can list cuda archs that you want, eg:
+ # all_cuda_archs = [
+     # '-gencode', 'arch=compute_70,code=sm_70',

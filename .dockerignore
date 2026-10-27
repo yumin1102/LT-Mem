@@ -1,0 +1,32 @@
+# Only runtime source and build inputs enter the Docker context.
+**
+!docker/
+!docker/**
+!requirements.txt
+!run.py
+!LICENSE
+!ltmem/
+!ltmem/**
+!configs/
+!configs/lab_s.yaml
+!configs/lab_l.yaml
+!configs/parking.yaml
+!scripts/
+!scripts/**
+
+# Exclude generated files, model weights and credentials.
+**/__pycache__/
+**/*.pyc
+**/*.tmp
+**/*.orig
+**/*.safetensors
+**/*.ckpt
+**/*.pt
+**/*.pth
+**/*.bin
+**/*.pkl
+**/.*
+**/*credential*.json
+**/*service-account*.json
+**/*.pem
+**/*.key

@@ -1,0 +1,30 @@
+data_root: ../data/Parking_Output
+
+sessions:
+  - [robot_1, Session1]
+  - [robot_2, Session2]
+  - [robot_3, Session3]
+  - [robot_4, Session4]
+  - [robot_5, Session5]
+  - [robot_6, Session6]
+  - [robot_7, Session7]
+  - [robot_8, Session8]
+  - [robot_9, Session9]
+  - [robot_10, Session10]
+
+session_times:
+  Session1: "12:54PM"
+  Session2: "5:37PM"
+  Session3: "8:00AM"
+  Session4: "11:54AM"
+  Session5: "2:54PM"
+  Session6: "5:47PM"
+  Session7: "8:20AM"
+  Session8: "1:03PM"
+  Session9: "5:56PM"
+  Session10: "8:30AM"
+
+objects:
+  - name: car
+    object_classes: [car in the parking lot]
+    min_voxel_points: 10000
